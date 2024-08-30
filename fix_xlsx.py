@@ -1,10 +1,10 @@
 '''
-修复厦门考勤表的工号问题
+修复考勤表的工号问题
 '''
 import pandas as pd
 
 # 读取工号对照品
-df_ref = pd.read_excel('./data/睿云联人员工号信息.xlsx')
+df_ref = pd.read_excel('./data/人员工号信息.xlsx')
 # 读取10楼考勤
 df_data = pd.read_excel('./merge.xlsx')
 
