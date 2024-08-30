@@ -1,7 +1,7 @@
 import pandas as pd
 from openpyxl import load_workbook
 
-file = './data/福州2024年06月考勤.xls'
+file = './data/2024年06月考勤.xls'
 # 读取原始xls表格
 df = pd.read_excel(file, skiprows=1)
 
